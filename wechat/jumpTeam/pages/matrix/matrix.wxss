@@ -1,0 +1,31 @@
+.matrix {
+  display: flex;
+}
+
+.matrix-detail {
+  display: inline-block;
+  height: 140rpx;
+  width: 200rpx;
+  background: #6ca6cd;
+  margin: 10rpx;
+}
+
+.scroll {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  width: 650rpx;
+  display: flex;
+  white-space: nowrap;
+}
+
+.text-vari {
+  display: block;
+  text-align: center;
+  font-size: 50rpx;
+  font-family: fantasy;
+}
+
+.comfer {
+  display: block;
+  text-align: center;
+}

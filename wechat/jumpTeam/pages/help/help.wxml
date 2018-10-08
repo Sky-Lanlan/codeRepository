@@ -1,0 +1,42 @@
+<view>
+<view wx:if="{{id==1}}">
+  <text decode='true'>&emsp;&emsp;{{matrix.start}}</text>
+  <text decode='true'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{{matrix.matrix0}}</text>
+  <text decode='true'>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{{matrix.matrix1}}</text>
+  <text decode='true'>&emsp;&emsp;{{matrix.enter}}</text>
+  <text decode='true'>&emsp;&emsp;{{matrix.end}}</text>
+</view>
+<view wx:if="{{id==0}}">
+  <text decode='true'>&emsp;&emsp;{{command.start}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.title0}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.mult}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.multsol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.T}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.Tsol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.H}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.Hsol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.I}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.Isol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.title1}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.tez}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.tezsol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.tezx}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.tezxsol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.hls}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.hlsol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.ni}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.nisol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.zhi}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.zhisol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.fczitle}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.fcz}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.matrix0}}</text>
+  <text decode='true'>&emsp;&emsp;&emsp;&emsp;&emsp;{{command.matrix1}}</text>
+  <text decode='true'>&emsp;&emsp;&emsp;&emsp;&emsp;{{command.matrix2}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.matrix3}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.fczsol}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.SVD}}</text>
+  <text decode='true'>&emsp;&emsp;{{command.SVDsol}}</text>
+ 
+</view>
+</view>

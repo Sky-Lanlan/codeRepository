@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/matrix/matrix",
+    "pages/matrix-input/matrix-input",
+    "pages/help/help",
+    "components/myMatrix/myMatrix"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7ED321",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "矩阵运算器",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

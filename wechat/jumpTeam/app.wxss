@@ -1,0 +1,10 @@
+.notice{
+  display: flex;
+  margin: 15rpx;
+  
+}
+.console{
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+}

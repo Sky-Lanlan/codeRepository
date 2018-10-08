@@ -1,0 +1,31 @@
+.upButton {
+  width: 500rpx;
+  background: #06e;
+  margin-top: 50rpx;
+  margin-bottom: 60rpx;
+  text-align: center;
+}
+
+.keyboard {
+  background: #CCCCCC;
+}
+
+.keyboard-in {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 230rpx;
+  margin: 5rpx;
+  background-color: #708090;
+}
+
+text {
+  display: block;
+  size: 24rpx;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+}

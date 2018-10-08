@@ -1,0 +1,48 @@
+
+<button  bindtap='help' style='background-color:#7FFFD4;width:750rpx' >点击查看输入规则</button>
+<view style='display:flex;justify-content:space-between;flex-direction: column;'>
+ 
+    
+  <view style='height:50rpx;background:#eee' wx:for='{{lcontent}}'>
+    <view style='display:flex;background:#CAE1FF'>
+      <text>{{item.num}}</text>
+      <text wx:if='{{item.pointer}}' decode='true'>&nbsp;&lt;-</text>
+    </view>
+
+  </view>
+  <view class='keyboard'>
+    <view class='keyboard-in'>
+      <button bindtap='clicked' id='1'>1</button>
+      <button bindtap='clicked' id='2'>2</button>
+      <button bindtap='clicked' id='3'>3</button>
+    </view>
+    <view class='keyboard-in'>
+      <button bindtap='clicked' id='4'>4</button>
+      <button bindtap='clicked' id='5'>5</button>
+      <button bindtap='clicked' id='6'>6</button>
+    </view>
+    <view class='keyboard-in'>
+      <button bindtap='clicked' id='7'>7</button>
+      <button bindtap='clicked' id='8'>8</button>
+      <button bindtap='clicked' id='9'>9</button>
+    </view>
+    <view class='keyboard-in'>
+      <button bindtap='clicked' id='['>[</button>
+      <button bindtap='clicked' id=','>,</button>
+      <button bindtap='clicked' id=']'>]</button>
+
+    </view>
+    <view class='keyboard-in'>
+
+      <button bindtap='clicked' id='.'>.</button>
+      <button bindtap='clicked' id='0'>0</button>
+      <button bindtap='clicked' id='-'>-</button>
+    </view>
+
+    <view class='keyboard-in'>
+      <button bindtap='end'>Ok</button>
+      <button bindlongtap='longTap' bindtap='back'>{{clt_it}}</button>
+      <button bindtap='enter'>Enter</button>
+    </view>
+  </view>
+</view>

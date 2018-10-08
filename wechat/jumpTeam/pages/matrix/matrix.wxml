@@ -1,0 +1,51 @@
+<view class='notice'>
+  <text style='margin-top:10rpx'>点击每个方块查看或修改矩阵</text>
+  <button size='mini' bindtap='help' style='background-color:#7FFFD4'>帮助文档</button>
+</view>
+
+
+<view class='matrix'>
+
+  <view bindtap='check_matrix' class='matrix-detail' id='0'>
+
+    <text class='text-vari'>m1</text>
+
+    <text class='comfer' wx:if="{{m1}}"> 已定义</text>
+  </view>
+  <view bindtap='check_matrix' class='matrix-detail' id='1'>
+
+    <text class='text-vari'>m2</text>
+    <text class='comfer' wx:if="{{m2}}">已定义</text>
+
+  </view>
+  <view bindtap='check_matrix' class='matrix-detail' id='2'>
+
+    <text class='text-vari'>m3</text>
+    <text class='comfer' wx:if="{{m3}}">已定义</text>
+
+  </view>
+  <view bindtap='check_matrix' class='matrix-detail' id='3'>
+
+    <text class='text-vari'>m4</text>
+    <text class='comfer' wx:if="{{m4}}">已定义</text>
+
+  </view>
+  <view bindtap='check_matrix' class='matrix-detail' id='4'>
+
+    <text class='text-vari'>m5</text>
+    <text class='comfer' wx:if="{{m5}}">已定义</text>
+
+  </view>
+
+
+
+</view>
+<view class='console'>
+
+  <form bindsubmit='calc'>
+    <textarea name="command" value='{{command}}' auto-focus='true' placeholder='在此处写下你要计算的式子' show-confirm-bar='true' show-confirm-bar='true' />
+    <button form-type="submit" class='button'>计算结果</button>
+  </form>
+
+  <textarea auto-height='true'maxlength='-1' value='{{output.data}}' />
+</view>

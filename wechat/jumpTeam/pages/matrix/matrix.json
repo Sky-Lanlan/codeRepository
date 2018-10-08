@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "myMatrix": "/components/myMatrix/myMatrix"
+  }
+}
